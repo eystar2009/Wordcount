@@ -1,0 +1,11 @@
+<h1> Count Result </h1>
+<h2>Original String Entered by the User </h2>
+{{fulltext}}
+<h2>Total Words Are</h2>
+{{countofwords}}
+<br/>
+
+{% for word, counttotal in sortedwords %}
+{{word}} = {{counttotal}} <br/>
+
+{% endfor %}
